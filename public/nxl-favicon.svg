@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#e91e8c"/>
+    </linearGradient>
+  </defs>
+  <!-- Circle ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#g)" stroke-width="44"/>
+  <!-- Lightning bolt extending beyond circle -->
+  <polygon points="310,60 195,260 270,260 195,460 340,220 260,220 310,60" fill="url(#g)"/>
+</svg>

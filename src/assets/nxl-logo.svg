@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#e91e8c"/>
+    </linearGradient>
+  </defs>
+  <!-- Circle ring -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#logo-gradient)" stroke-width="16"/>
+  <!-- Lightning bolt -->
+  <polygon points="120,15 70,110 105,110 75,190 140,85 102,85 120,15" fill="url(#logo-gradient)"/>
+  <!-- NXL TECHNOLOGIES text -->
+  <text x="210" y="115" font-family="Outfit,Inter,sans-serif" font-weight="800" font-size="72" fill="currentColor" letter-spacing="4">NXL</text>
+  <text x="440" y="115" font-family="Outfit,Inter,sans-serif" font-weight="400" font-size="72" fill="currentColor" letter-spacing="4">TECHNOLOGIES</text>
+</svg>

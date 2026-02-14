@@ -1,0 +1,15 @@
+.tilt3d {
+    position: relative;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+.tilt3d__glare {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
