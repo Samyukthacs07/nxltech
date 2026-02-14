@@ -29,13 +29,13 @@
 }
 
 .navbar__logo-img {
-    height: 38px;
+    height: 180px;
     width: auto;
     transition: height var(--transition-smooth);
 }
 
 .navbar--scrolled .navbar__logo-img {
-    height: 32px;
+    height: 140px;
 }
 
 .navbar__links {

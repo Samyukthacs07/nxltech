@@ -10,7 +10,7 @@ import {
     HiOutlineMail,
     HiOutlineLocationMarker,
 } from 'react-icons/hi';
-import nxlLogo from '../assets/nxl-logo.png';
+import nxlLogo from '../pages/Logo/ChatGPT Image Feb 14, 2026, 10_24_19 PM.png';
 import './Footer.css';
 
 const companyLinks = [

@@ -4,7 +4,7 @@ import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import { HiSun, HiMoon } from 'react-icons/hi';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
-import NxlLogo from './NxlLogo';
+import nxlLogo from '../pages/Logo/ChatGPT Image Feb 14, 2026, 10_24_19 PM.png';
 import './Navbar.css';
 
 const navLinks = [
@@ -39,7 +39,7 @@ export default function Navbar() {
         <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
             <div className="container navbar__inner">
                 <Link to="/" className="navbar__logo">
-                    <NxlLogo className="navbar__logo-img" />
+                    <img src={nxlLogo} alt="NXL Technologies" className="navbar__logo-img" />
                 </Link>
 
                 <ul className="navbar__links">
