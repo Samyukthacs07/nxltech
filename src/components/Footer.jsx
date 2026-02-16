@@ -93,11 +93,11 @@ export default function Footer() {
                         <ul className="footer__contact-list">
                             <li>
                                 <HiOutlinePhone className="footer__contact-icon" />
-                                <span>+91 7736960069</span>
+                                <a href="tel:+917736960069" className="footer__link">+91 7736960069</a>
                             </li>
                             <li>
                                 <HiOutlineMail className="footer__contact-icon" />
-                                <span>info@nxltechnologies.com</span>
+                                <a href="mailto:info@nxltechnologies.com" className="footer__link">info@nxltechnologies.com</a>
                             </li>
                             <li>
                                 <HiOutlineLocationMarker className="footer__contact-icon" />
