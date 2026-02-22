@@ -53,7 +53,7 @@ const allServices = [
     {
         id: 'digital-marketing',
         icon: <HiOutlineSpeakerphone />,
-        title: 'Digital Marketing Services',
+        title: 'Digital Marketing Services (AI Based)',
         tagline: 'Data-Driven Growth Strategies',
         flagship: true,
         gradient: 'linear-gradient(135deg, #e91e8c 0%, #9333ea 100%)',
@@ -78,11 +78,38 @@ const allServices = [
             { value: '40+', label: 'Brands Served' },
         ],
     },
-
+    {
+        id: 'ai-development',
+        icon: <HiOutlineLightBulb />,
+        title: 'AI Development & Integration',
+        tagline: 'Intelligent Automation & Machine Learning',
+        flagship: true,
+        gradient: 'linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)',
+        summary: 'Harness the power of Artificial Intelligence to transform your business operations and insights.',
+        description: [
+            'Our AI development services help you integrate cutting-edge artificial intelligence, machine learning, and deep learning into your workflows.',
+            'We build custom AI models, implement generative AI solutions, and deploy intelligent agents that understand natural language and complex data.',
+            'Whether you need predictive analytics, computer vision, or automated decision-making, we engineer AI systems that provide a competitive edge.',
+        ],
+        features: [
+            { name: 'Generative AI Solutions', detail: 'Custom LLM integration, chatbots, and automated content generation' },
+            { name: 'Predictive Analytics', detail: 'Forecast trends, customer behavior, and inventory needs using historical data' },
+            { name: 'Computer Vision', detail: 'Image recognition, object detection, and video analysis for spatial intelligence' },
+            { name: 'Natural Language Processing', detail: 'Sentiment analysis, text summarization, and conversational UI' },
+            { name: 'Process Automation', detail: 'RPA combined with cognitive AI to automate complex, repetitive tasks' },
+            { name: 'Custom ML Models', detail: 'Tailored algorithm development, training, tuning, and deployment' },
+        ],
+        technologies: ['OpenAI API', 'TensorFlow', 'PyTorch', 'Hugging Face', 'LangChain', 'Python', 'AWS SageMaker', 'CUDA'],
+        stats: [
+            { value: '10x', label: 'Process Efficiency' },
+            { value: '40%', label: 'Cost Reduction' },
+            { value: '24/7', label: 'Automated Operations' },
+        ],
+    },
     {
         id: 'mobile-development',
         icon: <HiOutlineDeviceMobile />,
-        title: 'Mobile App Development',
+        title: 'Mobile App Development (AI Based)',
         tagline: 'Native & Cross-Platform Mobile Solutions',
         flagship: false,
         gradient: 'linear-gradient(135deg, #7c3aed 0%, #3b82f6 100%)',
@@ -138,7 +165,7 @@ const allServices = [
     {
         id: 'cloud-devops',
         icon: <HiOutlineCloud />,
-        title: 'Cloud Solutions & DevOps',
+        title: 'Cloud Solutions & DevOps (AI Based)',
         tagline: 'Scalable Infrastructure, Automated Pipelines',
         flagship: false,
         gradient: 'linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%)',

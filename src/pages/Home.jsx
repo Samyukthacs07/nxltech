@@ -22,7 +22,7 @@ import Tilt3DCard from '../components/Tilt3DCard';
 import '../components/Tilt3DCard.css';
 import './Home.css';
 
-/* ── Two flagship services shown as large hero cards ── */
+/* ── Three flagship services shown as large hero cards ── */
 const flagshipServices = [
     {
         icon: <HiOutlineCode />,
@@ -33,7 +33,7 @@ const flagshipServices = [
     },
     {
         icon: <HiOutlineSpeakerphone />,
-        title: 'Digital Marketing',
+        title: 'Digital Marketing (AI Based)',
         desc: 'Data-driven strategies to amplify your brand and deliver measurable ROI.',
         highlights: ['SEO & SEM', 'Social Media Strategy', 'Content Marketing', 'Performance Analytics'],
         gradient: 'linear-gradient(135deg, #e91e8c 0%, #9333ea 100%)',
@@ -49,7 +49,7 @@ const otherServices = [
     },
     {
         icon: <HiOutlineDeviceMobile />,
-        title: 'Mobile Apps',
+        title: 'Mobile Apps (AI Based)',
         desc: 'High-performance native & cross-platform mobile apps.',
     },
     {
@@ -59,7 +59,7 @@ const otherServices = [
     },
     {
         icon: <HiOutlineCloud />,
-        title: 'Cloud Solutions',
+        title: 'Cloud Solutions (AI Based)',
         desc: 'Scalable, secure cloud infrastructure & migration.',
     },
     {
@@ -85,6 +85,52 @@ const integrations = [
     { name: 'Zoho CRM', color: '#E42527' },
     { name: 'Google Workspace', color: '#4285F4' },
     { name: 'Slack', color: '#4A154B' },
+];
+
+import l1 from '../pages/Logo/client/Client Logo/aarons_logo_transparent.png';
+import l2 from '../pages/Logo/client/Client Logo/al_farabi_optician_transparent.png';
+import l3 from '../pages/Logo/client/Client Logo/back_to_nature_transparent.png';
+import l4 from '../pages/Logo/client/Client Logo/dream_zone_transparent.png';
+import l5 from '../pages/Logo/client/Client Logo/drk logo.png';
+import l6 from '../pages/Logo/client/Client Logo/Freecool-removebg-preview.png';
+import l7 from '../pages/Logo/client/Client Logo/inland_travel_transparent.png';
+import l8 from '../pages/Logo/client/Client Logo/karimbanakkal_black_white_yellow_keep-removebg-preview.png';
+import l9 from '../pages/Logo/client/Client Logo/KIngskland.png';
+import l10 from '../pages/Logo/client/Client Logo/Loocos_pizza__1_-removebg-preview.png';
+import l11 from '../pages/Logo/client/Client Logo/maps_vogs_transparent.png';
+import l12 from '../pages/Logo/client/Client Logo/Me_Me__1_-removebg-preview.png';
+import l13 from '../pages/Logo/client/Client Logo/Metkalf - Logo - Secondary.png';
+import l14 from '../pages/Logo/client/Client Logo/mozado.png';
+import l15 from '../pages/Logo/client/Client Logo/peacock_holidays_transparent.png';
+import l16 from '../pages/Logo/client/Client Logo/Pureheart__1_-removebg-preview.png';
+import l17 from '../pages/Logo/client/Client Logo/qystal_perfumes_transparent.png';
+import l18 from '../pages/Logo/client/Client Logo/raaha_40days_transparent.png';
+import l19 from '../pages/Logo/client/Client Logo/rb_logo_transparent.png';
+import l20 from '../pages/Logo/client/Client Logo/toni and guy logo copy.png';
+import l21 from '../pages/Logo/client/Client Logo/tvm royals DP.jpg';
+
+const clientLogos = [
+    { src: l1, alt: "Aaron's" },
+    { src: l2, alt: 'Al Farabi Optician' },
+    { src: l3, alt: 'Back to Nature' },
+    { src: l4, alt: 'Dream Zone' },
+    { src: l5, alt: 'DRK' },
+    { src: l6, alt: 'Freecool' },
+    { src: l7, alt: 'Inland Travel' },
+    { src: l8, alt: 'Karimbanakkal' },
+    { src: l9, alt: 'Kingskland' },
+    { src: l10, alt: 'Loocos Pizza' },
+    { src: l11, alt: 'Maps & Vogs' },
+    { src: l12, alt: 'Me Me' },
+    { src: l13, alt: 'Metkalf' },
+    { src: l14, alt: 'Mozado' },
+    { src: l15, alt: 'Peacock Holidays' },
+    { src: l16, alt: 'Pureheart' },
+    { src: l17, alt: 'Qystal Perfumes' },
+    { src: l18, alt: 'Raaha' },
+    { src: l19, alt: 'RB Logo' },
+    { src: l20, alt: 'Toni & Guy' },
+    { src: l21, alt: 'TVM Royals' },
 ];
 
 export default function Home() {
@@ -185,7 +231,7 @@ export default function Home() {
                         </h2>
                         <p className="section-subtitle">
                             Software Development and Digital Marketing are at the heart
-                            of NXL Technologies — powering digital transformation for businesses worldwide.
+                            of NXL Technologies — powering digital transformation.
                         </p>
                     </AnimatedSection>
 
@@ -279,19 +325,19 @@ export default function Home() {
                     <AnimatedSection>
                         <span className="section-label">Why Choose Us</span>
                         <h2 className="section-title">
-                            Experience the Power of Tailored IT Solutions
+                            A Company of Revolutionary AI Ideas
                         </h2>
                         <p className="section-subtitle">
-                            Innovation and efficiency tailored to your specific business goals.
+                            AI is always providing for everything. We are a startup company fueled by revolutionary AI intelligence.
                         </p>
                     </AnimatedSection>
                     <div className="tailored__grid">
                         <AnimatedSection variant="fadeLeft" delay={0.2}>
                             <Tilt3DCard className="tailored__card glass-card" maxTilt={8}>
                                 <div className="tailored__card-badge">Featured</div>
-                                <HiOutlineCode className="tailored__card-icon" />
-                                <h3>Software Development</h3>
-                                <p>End-to-end software solutions — from idea to deployment and beyond.</p>
+                                <HiOutlineLightBulb className="tailored__card-icon" />
+                                <h3>AI Development</h3>
+                                <p>Cutting-edge AI integration to automate everything and transform your business from the ground up.</p>
                                 <Link to="/services" className="service-card__link">
                                     Explore Now <HiArrowRight />
                                 </Link>
@@ -337,6 +383,27 @@ export default function Home() {
                             </AnimatedSection>
                         ))}
                     </div>
+                </div>
+            </section>
+
+            {/* ===== CLIENT LOGOS BANNER ===== */}
+            <section className="clients-banner">
+                <div className="clients-banner__header">
+                    <span className="section-label">Trusted By</span>
+                    <h2 className="clients-banner__title">Our Valued Clients</h2>
+                </div>
+                <div className="clients-marquee-wrapper">
+                    <motion.div
+                        className="clients-track"
+                        animate={{ x: ["0%", "-50%"] }}
+                        transition={{ ease: "linear", duration: 40, repeat: Infinity }}
+                    >
+                        {[...clientLogos, ...clientLogos].map((logo, i) => (
+                            <div key={i} className="clients-logo-item">
+                                <img src={logo.src} alt={logo.alt} className="clients-logo-img" draggable="false" />
+                            </div>
+                        ))}
+                    </motion.div>
                 </div>
             </section>
 

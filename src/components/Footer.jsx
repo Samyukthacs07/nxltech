@@ -22,6 +22,7 @@ const companyLinks = [
 
 const serviceLinks = [
     { label: 'Software Development' },
+    { label: 'AI Development' },
     { label: 'Digital Marketing' },
 
     { label: 'Mobile Apps' },
