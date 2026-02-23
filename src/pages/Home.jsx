@@ -26,16 +26,16 @@ import './Home.css';
 const flagshipServices = [
     {
         icon: <HiOutlineCode />,
-        title: 'Software Development',
-        desc: 'Scalable, enterprise-grade software solutions driving real business results.',
-        highlights: ['Custom Web & Mobile Apps', 'SaaS Platforms', 'API & Microservices', 'Legacy Modernization'],
+        title: 'AI-Powered Software Development',
+        desc: 'AI-integrated, enterprise-grade software solutions driving intelligent business automation and results.',
+        highlights: ['AI-Enhanced Web & Mobile Apps', 'Intelligent SaaS Platforms', 'AI-Driven API & Microservices', 'Smart Legacy Modernization'],
         gradient: 'linear-gradient(135deg, #9333ea 0%, #7c3aed 100%)',
     },
     {
         icon: <HiOutlineSpeakerphone />,
-        title: 'Digital Marketing (AI Based)',
-        desc: 'Data-driven strategies to amplify your brand and deliver measurable ROI.',
-        highlights: ['SEO & SEM', 'Social Media Strategy', 'Content Marketing', 'Performance Analytics'],
+        title: 'Digital Marketing',
+        desc: 'AI-driven strategies with predictive analytics to amplify your brand and deliver measurable ROI.',
+        highlights: ['AI-Optimized SEO & SEM', 'Smart Social Media Strategy', 'AI Content Generation', 'Predictive Performance Analytics'],
         gradient: 'linear-gradient(135deg, #e91e8c 0%, #9333ea 100%)',
     },
 ];
@@ -45,32 +45,32 @@ const otherServices = [
     {
         icon: <HiOutlineDesktopComputer />,
         title: 'Website Development',
-        desc: 'Stunning, responsive, SEO-optimized websites that convert.',
+        desc: 'Smart, responsive, AI-optimized websites with intelligent user experiences.',
     },
     {
         icon: <HiOutlineDeviceMobile />,
-        title: 'Mobile Apps (AI Based)',
-        desc: 'High-performance native & cross-platform mobile apps.',
+        title: 'Mobile Apps',
+        desc: 'High-performance mobile apps with on-device ML and smart AI assistants.',
     },
     {
         icon: <HiOutlineCube />,
         title: 'ERP Solutions',
-        desc: 'Streamline operations with intelligent enterprise systems.',
+        desc: 'Streamline operations with AI-powered enterprise automation systems.',
     },
     {
         icon: <HiOutlineCloud />,
-        title: 'Cloud Solutions (AI Based)',
-        desc: 'Scalable, secure cloud infrastructure & migration.',
+        title: 'Cloud Solutions',
+        desc: 'Scalable AI infrastructure, ML model deployment & intelligent cloud migration.',
     },
     {
         icon: <HiOutlinePuzzle />,
         title: 'Gaming Apps',
-        desc: 'Immersive gaming experiences across all platforms.',
+        desc: 'Immersive gaming with AI-driven NPCs, procedural generation & adaptive difficulty.',
     },
     {
         icon: <HiOutlineLightBulb />,
         title: 'IT Consulting',
-        desc: 'Expert advice to optimize your tech strategy.',
+        desc: 'Expert AI strategy advice to integrate machine learning into your business.',
     },
 ];
 
@@ -81,10 +81,10 @@ const values = [
 ];
 
 const integrations = [
-    { name: 'Microsoft Teams', color: '#5B5FC7' },
-    { name: 'Zoho CRM', color: '#E42527' },
-    { name: 'Google Workspace', color: '#4285F4' },
-    { name: 'Slack', color: '#4A154B' },
+    { name: 'OpenAI API', color: '#10a37f' },
+    { name: 'TensorFlow', color: '#FF6F00' },
+    { name: 'Google Cloud AI', color: '#4285F4' },
+    { name: 'AWS SageMaker', color: '#FF9900' },
 ];
 
 import l1 from '../pages/Logo/client/Client Logo/aarons_logo_transparent.png';
@@ -225,13 +225,13 @@ export default function Home() {
             <section className="section flagship-section">
                 <div className="container">
                     <AnimatedSection>
-                        <span className="section-label">Core Expertise</span>
+                        <span className="section-label">Core AI Expertise</span>
                         <h2 className="section-title">
-                            Our Flagship Services
+                            Our AI-Powered Flagship Services
                         </h2>
                         <p className="section-subtitle">
-                            Software Development and Digital Marketing are at the heart
-                            of NXL Technologies — powering digital transformation.
+                            AI-Powered Software Development and Digital Marketing are at the heart
+                            of NXL Technologies — powering intelligent digital transformation.
                         </p>
                     </AnimatedSection>
 
@@ -297,9 +297,9 @@ export default function Home() {
                 <div className="gradient-orb gradient-orb-blue services-orb" />
                 <div className="container">
                     <AnimatedSection>
-                        <span className="section-label">What We Also Do</span>
+                        <span className="section-label">AI-Enhanced Solutions</span>
                         <h2 className="section-title">
-                            More Solutions to Elevate Your Business
+                            More AI Solutions to Elevate Your Business
                         </h2>
                     </AnimatedSection>
                     <div className="services-home__grid">
@@ -365,9 +365,9 @@ export default function Home() {
             <section className="section integrations">
                 <div className="container">
                     <AnimatedSection>
-                        <span className="section-label">Seamless Integration</span>
+                        <span className="section-label">AI Tech Stack</span>
                         <h2 className="section-title">
-                            Use The Apps Designed for Seamless Integration
+                            Powered By Leading AI Platforms
                         </h2>
                     </AnimatedSection>
                     <div className="integrations__grid">
