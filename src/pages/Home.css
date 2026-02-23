@@ -308,7 +308,7 @@
     border: 1.5px solid rgba(147, 51, 234, 0.25);
     background: linear-gradient(160deg, rgba(18, 16, 31, 0.9), rgba(147, 51, 234, 0.06));
     border-radius: var(--radius-lg);
-    min-height: 440px;
+    min-height: 480px;
 }
 
 .flagship-card:hover {
@@ -457,6 +457,7 @@
     flex-direction: column;
     gap: 16px;
     height: 100%;
+    min-height: 260px;
     border-radius: var(--radius-lg);
 }
 
@@ -512,6 +513,8 @@
     position: relative;
     overflow: hidden;
     border-radius: var(--radius-lg);
+    height: 100%;
+    min-height: 280px;
 }
 
 .tailored__card h3 {
