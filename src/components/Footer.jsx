@@ -34,9 +34,9 @@ const serviceLinks = [
 
 const socials = [
     { icon: <FaFacebookF />, url: 'https://www.facebook.com/profile.php?id=61567502310449' },
-    { icon: <FaTwitter />, url: '#' },
-    { icon: <FaInstagram />, url: '#' },
-    { icon: <FaLinkedinIn />, url: 'https://www.linkedin.com/company/nxl-technologies/' },
+    { icon: <FaTwitter />, url: 'https://x.com/NXL_Technology' },
+    { icon: <FaInstagram />, url: 'https://www.instagram.com/nxl.technologies?igsh=Y2trZTU4ajN1dGV1' },
+    { icon: <FaLinkedinIn />, url: 'https://www.linkedin.com/company/nxl-technologies/about/' },
 ];
 
 export default function Footer() {
